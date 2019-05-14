@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+@font-face { font-family: 'Dovemayo-Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Dovemayo-Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
+body {
+	margin: 0;
+}
+nav{
+	/*height: 70px;*/
+	width: 100%;
+	/*background-color: white;*/
+}
+.container1 {
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h1 {
+	display: inline;
+	font-family: 'Do Hyeon', sans-serif;
+	color:skyblue;
+}
+.nav_a {
+	display: inline;
+	float: right;
+	font-family: 'Dovemayo-Bold', cursive;
+	font-size: 15px;
+}
+header{
+	background-size: cover;
+	position: relative;
+	padding: 2.8em 0em;
+	/*height: 555px;
+	width:100%;
+	background-image: url('http://www.skinlabl.com/images/directory/product_40.jpg');*/
+	/*opacity: 0.5; *//*투명도*/
+}
+.header_a{
+	z-index:1;
+	position:relative;
+	width:100%;
+	height:555px;
+	/*border:1px solid;*/
+	border-radius:5px;
+}
+.header_a:after{
+	width:100%;
+	height:555px;
+	z-index:-1;
+	position:absolute;
+	top:0;
+	left:0;
+	content:"";
+	background-image: url('http://www.skinlabl.com/images/directory/product_40.jpg') ;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-origin:content-box;
+	background-size: 100%;
+	 
+	opacity: 0.2!important; filter:alpha(opacity=20);
+}
+#header_btn{
+	margin-left: 75px;
+}
+
+.btn-group{
+	font-family: 'Do Hyeon', sans-serif;
+	text-align: center;
+}
+.dropdown-item{
+	font-family: 'Dovemayo-Bold', cursive;
+	text-align: center;
+}
+h2{
+	font-family: 'Do Hyeon', sans-serif;
+	color:blue;
+	font-size: 30px;
+	text-align: center;
+}
+.header_p{
+	font-family: 'Dovemayo-Bold', cursive;
+	text-align: center;
+	font-size: 19px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.header_p1{
+	font-family: 'Dovemayo-Bold', cursive;
+	text-align: center;
+	font-size: 17px;
+	color: #191970;
+}
+section{
+	text-align: center;
+	width:100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: 600px;
+}
+.row{
+	margin-left: 30px;
+}
+.title{
+	height: 20px;
+	width: 100%;
+	margin-bottom: 70px;
+}
+article{
+	margin-top: 10px;
+	display: inline-block;
+	width:250px;
+	height: 400px;
+	margin: 8px;
+}
+article p{
+	font-family: 'Dovemayo-Bold', cursive;
+	display: inline-block;
+	text-align: center;
+	color:black;
+	font-size: 16px;
+}
+footer{
+	width:100%; 
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.footer_p{
+	line-height: 25px;
+	font-size: 15px;
